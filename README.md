@@ -1,6 +1,6 @@
 # Trading-platform-ABAP
 
-Trading platform with recommended price provided for buyer.
+Trading platform with recommended price provided for buyer. Created 'Z_ARRAY_F' class to support Recommended price algorithm.
 
 ## Plan
 
