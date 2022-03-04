@@ -54,7 +54,7 @@ endmethod.
 
 method GET_VALUE.
   if INPUT_INDEX >= index.
-    message 'Exception index out of bounce！' type 'I'.
+    message 'Exception index out of bounds!' type 'I'.
     OUTPUT_FLOAT = 0.
     return.
   endif.
@@ -75,7 +75,7 @@ endmethod.
 
 method CHANGE_VALUE.
   if INPUT_INDEX >= index.
-    message 'Exception index out of bounce！' type 'I'.
+    message 'Exception index out of bounds!' type 'I'.
     return.
   endif.
 
@@ -94,7 +94,7 @@ endmethod.
 
 method REMOVE_VALUE.
   if INPUT_INDEX >= index.
-    message 'Exception index out of bounce！' type 'I'.
+    message 'Exception index out of bounds!' type 'I'.
     return.
   endif.
 
